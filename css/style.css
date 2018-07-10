@@ -1,6 +1,7 @@
 /********** Web Fonts **********/
-@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+
 
 /* scale all images, and media to accomodate responsive layout. */
 img, video, audio, iframe, table, form { 
@@ -14,6 +15,14 @@ img.verif_img {
 	height:30px;
 	vertical-align: bottom;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+/* font-family: 'Elsie Swash Caps', cursive; */
+/* font-family: 'Clicker Script', cursive; */
 
 /********** Global **********/
 
@@ -301,5 +310,9 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
+
+#promo-product {
+	margin-top: 20px;
+}
 
 /* code examples copyright Jonathan Grover 2012 */
